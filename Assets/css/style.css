@@ -1,0 +1,35 @@
+.header {
+    display:flex;
+}
+
+.header nav {
+    float: right;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    flex:content;
+    padding: 1%;
+    margin: 2px;
+    border: 1px solid blue;
+}
+
+#about-me img {height: 200px;px;
+    width: 150px;
+    float: left;
+}
+#about-me {
+    display:flexbox;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+#about-me h2 {
+    padding-left: 3%;
+    margin-left: 3%;
+    position: relative;
+    left: 3%;   
+}
