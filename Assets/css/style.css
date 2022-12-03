@@ -1,35 +1,47 @@
+
+
 .header {
     display:flex;
+    justify-content: space-between;
 }
-
-.header nav {
-    float: right;
+.header h1 {
+    font-size: 70px;
 }
-
-.header nav ul {
-    list-style-type: none;
+.header nav {display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.header nav ul li {
-    display: inline-block;
-    flex:content;
-    padding: 1%;
-    margin: 2px;
-    border: 1px solid blue;
+.header nav a{
+     padding: 6px;
+     margin: 6 px;
+     border: 1px solid black;
+}
+,header a :hover{
+    color: yellow;
 }
 
 #about-me img {height: 200px;px;
     width: 150px;
-    float: left;
 }
 #about-me {
     display:flexbox;
     flex-wrap: wrap;
-    padding: 3%;
 }
 #about-me h2 {
-    padding-left: 3%;
-    margin-left: 3%;
-    position: relative;
-    left: 3%;   
+
+}
+#about-me h2 p {
+    padding-left: 6%;
+}
+
+.footer {
+border: 1px solid red;
+
+}
+
+.footer h2 {
+    align-self: center;
+}
+.footer ul {
+    
 }
