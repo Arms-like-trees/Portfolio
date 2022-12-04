@@ -14,29 +14,56 @@
         </h1>
         <nav>
                 <!--Start of links at top of porfolio. 3 total ABout Me section, Work section, Contact Me  section-->
-                <h3><a href="#About_Me">About Me</a></h3>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#Contact_Me">Contact Me</a>
+                    </li>
+                </ul>
+                <h3></h3>
                 <h3>
-                    <a href="Work">Work</a>
+                    
                 </h3>
                 <h3>
-                    <a href="#Contact_Me">Contact Me</a>
+                    
                 </h3>
             
         </nav>
     </header>
 
     <main class="content">
-        <img src="/Assets/images/portfolio_picture.jpg" alt="Picture of Christopher Newell wearing a pink polo"/>
-        <section id="about-me">
-            <img src="/Assets/images/portfolio_picture.jpg" alt="Picture of Christopher Newell wearing a pink polo"/>
-            <h2 id="About_Me">About Me</h2>
+        <div id="about-me">
+            <div>
+                <img src="/Assets/images/portfolio_picture.jpg" alt="Picture of Christopher Newell wearing a pink polo"/>
+            </div>
+            <div>
+                <h2 class="About_Me">About Me</h2>
                 <p>
                     Howdy.  My name is Christopher Newell, but I go by CJ.  I come from the great state of Texas where the weather can be unprdeictable but is always awesome. I am ambtious and love tackling problems so that I can be challenged and learn something new.  I am driven to problem solve by figure out how something works and then push it to the limits.  
                 </p>
-        </section>
-        <section id="Work">
+            </div>
+        </div>
+        <section class="Work">
             <h2 id="Work">Work</h2>
-
+            <div class="first-work">
+                <img id="first-work" src="/Assets/images/Pre-work-study-guide.png" alt="screen shot of Prework study guide">
+                <h3><a href="https://arms-like-trees.github.io/prework-study-guide/">Prework Study Guide</a></h3>
+                    <p>
+                        A reference Sheet to go back to with some basics about HTML, CSS, Git, and JavaScript.
+                    </p>
+            </div>
+            <div class="second_work">
+                <img id="second_work" src="/Assets/images/Horiseon_refactoring.png" alt="Scren shot of Horiseon webpage">
+                <h3><a href="https://arms-like-trees.github.io/Challenge-1/">Horiseon Code Refactoring</a></h3>
+                    <p>
+                       Code refactoring involving fixing broken links and making the site more closely aligned with accesibility standards.
+                    </p>
+            </div>
         </section>
     </main>
 
