@@ -1,11 +1,18 @@
+/* Variable to make changes to colors throughout the site uniform and easy to change in a moment */
+:root {
+    --text-color: rgb(248, 247, 245);
+    --background-color: #0f171c;
+}
 
 /* Header portion with nav links */
 
 .header {
     display:flex;
-    padding-left: 5%;
+    padding-left: 3%;
     justify-content: space-between;
-    max-width: 90%;
+    max-width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 .header h1 {
     font-size: 400%;
@@ -15,45 +22,53 @@
     align-items: center;
 }
 .header nav ul {
-    text-size-adjust: 60%;
     display: flex;
     list-style: none;
-    border: 1px solid red;
     justify-content: space-between;
 }
 ul li { /*margin around the top nav bar links*/
         margin: 5px;
-        text-size-adjust:;
+        display: flex;
+        font-size: 250%;
+        justify-content: center;
+        text-align: center;
 }
 .header nav a{
-     padding: 6px;
-     margin: 6 px;
-     border: 1px solid black;
+     padding: 9px;
+     margin: 6px;
+     color: var(--text-color);
+     
 }
+
 .header a:hover{
-    color: yellow;
-    background-color: gray;
+    color: var(--text-color);
+    text-decoration: none;
 }
 /* Start of main content area */
 .challenge {
     background-image: url("/Assets/images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg");
     height: 600px;
-    display: flex;
+    display:block;
     align-items: center;
-    padding-left: 22%;
-    text-size-adjust: 700%;
-    color: antiquewhite;
+    text-align: center;
+    padding: 150px;
+    font-size: 500%;
+    color: var(--text-color);
     text-shadow: 8px 8px black;
 }
+
 .content{
-    background-color: darkslategray;
+    background-color: var(--background-color);
+    padding: 2%
 }
-#about-me img {height: 200px;px;
-    width: 150px;
+#about-me img {
+    height: 300px;
+    width: 225px;
 }
 #about-me {
     display:flex;
-    max-width: 85%;
+    max-width: 100%;
+    padding-right: 5%;
 }
 #about-me h2 {
 
@@ -63,7 +78,9 @@ ul li { /*margin around the top nav bar links*/
 }
 
 #first-work{
-max-width: 80%;
+max-width: 100%;
+max-height: 800px;
+
 }
 
 .first-work h3, .first .first-work h3 p {
@@ -82,20 +99,31 @@ max-width: 80%;
 }
 
 .footer {
+    display: flex;
 border: 1px solid red;
+align-items: center;
+justify-content: space-between;
+padding-left: 3%;
+padding-right: 10%;
 
 }
 
 .footer h2 {
-    align-self: center;
+    font-size: 250%
 }
 .footer ul {
-    
+    display: flex;
+    list-style: none;
 }
 
-@media screen and (max-width: 1000px) and (min-width:700px){
+.footer ul li {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
 .header h1 {
-    font-size: 10px;
+    font-size: 100%;
     color: red;
 }
+
 }
