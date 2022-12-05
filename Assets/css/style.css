@@ -140,7 +140,7 @@ background-color: var(--background-color);
 .footer a:hover{
     text-decoration: none;
 }
-/* Settings change for smaller that 1200ps width */
+/* Settings change for smaller that 1200px width */
 @media screen and (max-width: 1199px) {
     .header {
         display:flex;
@@ -216,7 +216,7 @@ background-color: var(--background-color);
     }
     #about-me p{padding-right: 26%;
         color: var(--text-color);
-        font-size: 62.5%;
+        font-size: 80%;
     }
     
     #about-me div {
