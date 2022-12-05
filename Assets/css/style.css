@@ -46,7 +46,7 @@ ul li { /*margin around the top nav bar links*/
 }
 /* Start of main content area */
 .challenge {
-    background-image: url("./Assets/images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg");
+    background-image: url("../images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg");
     height: 600px;
     background-size:cover;
     display:block;
@@ -185,7 +185,7 @@ background-color: var(--background-color);
     }
     /* Start of main content area */
     .challenge {
-        background-image: url("./Assets/images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg");
+        background-image: url("../images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg");
         height: 300px;
         background-size:cover;
         display:block;
