@@ -121,7 +121,7 @@ max-height: 800px;
 .footer {
     display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content:space-evenly;
 padding-left: 3%;
 padding-right: 10%;
 background-color: var(--background-color);
@@ -257,7 +257,7 @@ background-color: var(--background-color);
     .footer {
         display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
     padding-left: 3%;
     padding-right: 10%;
     background-color: var(--background-color);
