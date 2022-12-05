@@ -101,6 +101,8 @@ max-height: 800px;
     flex-wrap: wrap;
     background-color: gray;
     padding: 3px;
+    size: 75%
+    ;
 }
 
 #second_work{
@@ -110,6 +112,10 @@ max-height: 800px;
 #work h3 {
     position:relative;
     top: 30 px;
+}
+
+#third_work {
+    max-width: 40%;
 }
 
 .footer {
