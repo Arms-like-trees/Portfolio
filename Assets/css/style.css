@@ -46,6 +46,7 @@ ul li { /*margin around the top nav bar links*/
 }
 /* Start of main content area */
 .challenge {
+    /* puts an image as the background rather than a color */
     background-image: url("../../Assets/images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg");
     height: 600px;
     background-size:cover;
@@ -63,12 +64,14 @@ ul li { /*margin around the top nav bar links*/
     background-color: var(--background-color);
     padding: 2%
 }
+/* the "about me" section */
 #about-me img {
     height: 300px;
     width: 225px;
     position: relative;
     left: 30px;
 }
+/*makes the image as one child element and the text as another child element display as flex*/
 #about-me {
     display:flex;
     max-width: 100%;
@@ -87,13 +90,13 @@ ul li { /*margin around the top nav bar links*/
     padding-left: 5%;
 }
 
-
+/* start of "work" section */
 #first-work{
 max-width: 100%;
 max-height: 800px;
 
 }
-
+/* seperated from other works so that it is larger than the others */
 .first-work-text {
     display:inline-block;
     position: relative;
@@ -110,6 +113,7 @@ max-height: 800px;
 .first-work a{
     color: var(--text-color);
 }
+/* make the works after the first work into a flex contatiner to scole with the page */
 .Works {
     display: flex;
 }
@@ -145,7 +149,7 @@ max-height: 800px;
     position: relative;
     max-width: 100%;
 }
-
+/* styles the "contact me" section */
 .footer {
     display: flex;
 align-items: center;
@@ -236,6 +240,7 @@ background-color: var(--background-color);
         background-color: var(--background-color);
         padding: 2%
     }
+    /* About me secition */
     #about-me img {
         height: 200px;
         width: 150px;
@@ -259,7 +264,7 @@ background-color: var(--background-color);
     #about-me div {
         padding-left: 2.5%;
     }
-    
+    /* Works Section */
     #first-work{
     max-width: 100%;
     max-height: 400px;
